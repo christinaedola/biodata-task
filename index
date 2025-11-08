@@ -6,6 +6,11 @@
 </head>
 <body>
 
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
     <header>
         <h1>My Biodata</h1>
     </header>
@@ -41,10 +46,3 @@
 
 
 
-echo "# biodata-task" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/christinaedola/biodata-task.git
-git push -u origin main
